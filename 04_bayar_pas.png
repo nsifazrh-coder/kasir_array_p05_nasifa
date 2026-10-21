@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost/kasir_p06_nasifa/index.php -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Struk Kasir - Praktikum 6</title>
+
+    <link rel="stylesheet" href="./04_bayar_pas_files/style.css">
+</head>
+<body>
+
+<main class="halaman">
+
+    <header class="judul">
+        <p>PEMROGRAMAN WEB II / PERTEMUAN 6</p>
+        <h1>Struk Kasir</h1>
+        <p>Mini project pengolahan data transaksi dengan PHP.</p>
+    </header>
+
+    <article class="struk">
+
+        <header class="toko">
+            <span class="label">SIMULASI PRAKTIKUM</span>
+
+            <h2>KASIR LAB PBI</h2>
+
+            <p>Laboratorium D3 Teknik Komputer</p>
+        </header>
+
+        <section class="informasi">
+            <p>
+                <span>No. transaksi</span>
+                <strong>P06-001</strong>
+            </p>
+
+            <p>
+                <span>Waktu</span>
+                <strong>
+                    21/10/2026 15:30 WIB
+                </strong>
+            </p>
+
+            <p>
+                <span>Kasir</span>
+                <strong>Nasifa Zariah</strong>
+            </p>
+
+            <p>
+                <span>Pelanggan</span>
+                <strong>Pelanggan Praktikum</strong>
+            </p>
+        </section>
+
+        <div class="tabel-bungkus">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Harga</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                                            <tr>
+                            <td>
+                                <strong>
+                                    Buku Tulis                                </strong>
+
+                                <small>
+                                    BRG001                                </small>
+                            </td>
+
+                            <td>
+                                Rp10.000                            </td>
+
+                            <td>
+                                3                            </td>
+
+                            <td>
+                                Rp30.000                            </td>
+                        </tr>
+                                            <tr>
+                            <td>
+                                <strong>
+                                    Pulpen Biru                                </strong>
+
+                                <small>
+                                    BRG002                                </small>
+                            </td>
+
+                            <td>
+                                Rp3.500                            </td>
+
+                            <td>
+                                4                            </td>
+
+                            <td>
+                                Rp14.000                            </td>
+                        </tr>
+                                            <tr>
+                            <td>
+                                <strong>
+                                    Buku Gambar                                </strong>
+
+                                <small>
+                                    BRG003                                </small>
+                            </td>
+
+                            <td>
+                                Rp7.500                            </td>
+
+                            <td>
+                                2                            </td>
+
+                            <td>
+                                Rp15.000                            </td>
+                        </tr>
+                                    </tbody>
+            </table>
+        </div>
+
+        <section class="ringkasan">
+            <p>
+                <span>Jumlah unit</span>
+                <strong>
+                    9                </strong>
+            </p>
+
+            <p>
+                <span>Subtotal belanja</span>
+                <strong>
+                    Rp59.000                </strong>
+            </p>
+
+            <p>
+                <span>Diskon</span>
+                <strong>
+                    -Rp5.900                </strong>
+            </p>
+
+            <p>
+                <span>Setelah diskon</span>
+                <strong>
+                    Rp53.100                </strong>
+            </p>
+
+            <p>
+                <span>Pajak simulasi 5%</span>
+                <strong>
+                    Rp2.655                </strong>
+            </p>
+
+            <p class="total">
+                <span>Total bayar</span>
+                <strong>
+                    Rp55.755                </strong>
+            </p>
+
+            <p>
+                <span>Uang diterima</span>
+                <strong>
+                    Rp55.755                </strong>
+            </p>
+
+                            <p>
+                    <span>Kembalian</span>
+                    <strong>
+                        Rp0                    </strong>
+                </p>
+
+                <div class="status lunas">
+                    LUNAS
+                </div>
+                    </section>
+
+        <footer class="catatan">
+            <p>Diskon 10% untuk subtotal minimal Rp50.000.</p>
+            <p>Pajak simulasi dihitung setelah diskon.</p>
+            <p>Terima kasih. Simpan struk sebagai bukti praktikum.</p>
+        </footer>
+
+    </article>
+
+    <div class="aksi">
+        <button type="button" onclick="window.print()">
+            Cetak / Simpan PDF
+        </button>
+    </div>
+
+</main>
+
+
+</body></html>
